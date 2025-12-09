@@ -1,0 +1,42 @@
+/* testing adding this file from vscode */
+/* Global Styles */
+:root {
+  --primary: #f1926f;
+  --dark: #333;
+  --light: #f4f4f4;
+  --gray: #ddd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: var(--dark);
+}
+
+.container {
+  width: 90%;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--primary);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 3s 500ms;
+}
+
+.btn:hover {
+  background: #e8764d;
+}
