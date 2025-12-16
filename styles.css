@@ -41,6 +41,13 @@ body {
   background: #0d0d0d;
 }
 
+.quicksand-font {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 /* Navigation */
 nav {
   background: rgb(8, 8, 8);
